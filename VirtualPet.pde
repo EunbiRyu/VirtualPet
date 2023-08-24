@@ -10,6 +10,6 @@ void draw(){
   triangle(110, 250,170, 240,90,360); //front forward leg
   quad(220, 240, 260, 280, 300, 360, 220, 280); //back forward leg
   
-  System.out.println(mouseX);
-  System.out.println(mouseY);
+  //System.out.println(mouseX);
+  //System.out.println(mouseY);
 }
