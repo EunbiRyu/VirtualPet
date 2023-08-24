@@ -9,6 +9,8 @@ void draw(){
   quad(90, 210, 130, 210, 170, 240, 110, 250); //neck
   triangle(110, 250,170, 240,90,360); //front forward leg
   quad(220, 240, 260, 280, 300, 360, 220, 280); //back forward leg
+  rotate(radians(-30));
+  arc(180, 350, 130, 30, 0, PI+QUARTER_PI, CHORD);
   
   //System.out.println(mouseX);
   //System.out.println(mouseY);
